@@ -23,51 +23,30 @@ footer{
 
 .flex-container{
     display: flex;
-    
     flex-direction: row;
     height: 30rem;
     width: 40rem;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 .flex-item{
     width: 50%;
     height: 100%;
-    overflow: hidden;
 }
 
-img{
-    width: auto;
-    height: 100%;
-    border-radius: 10px 0 0 10px;
+
+.img{
+    background: url(/images/image-product-desktop.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0 1rem 1rem 1rem;
-}
-
-.container .current-price {
-    color: var(--dark-cyan);
-    font-family: "Fraunces", serif;
-    font-size: 2rem;
-}
-
-.container .normal-price {
-    color: var(--very-dark-blue);
-    text-decoration:line-through;
-}
 .info{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    
     background-color: var(--white);
-    padding: 0 1rem 0 1rem;
-    border-radius: 0 10px 10px 0;
+    padding: 2rem;
+    box-sizing: border-box;
 }
 
 .info h3{
@@ -75,27 +54,29 @@ img{
     text-transform:uppercase ;
     font-family: "Montserrat", serif;
     font-weight: 400;
-    opacity: 0.7;
-    margin-bottom: 0.1rem;
+    opacity: 0.4;
+    margin: 0;
+    padding: auto;
+    font-size: 0.8rem;
     
 }
 
 .info .title {
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    margin-top: 0.5rem;
-    line-height: 3rem;
+    margin: 1rem 0;
+    line-height: 2.7rem;
     color: var(--very-dark-blue);
 }
 
 .info p {
-    font-size: 1rem;
-    line-height: 1.8rem;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
     letter-spacing: 1.2px;
     opacity: 0.7;
-    color: var(--dark-cyan);
-    margin-top: 0;
+    color: var(--dark-blue);
+    margin: 0.5rem 0;
 }
 
 .info button {
@@ -109,12 +90,53 @@ img{
     border-radius: 10px;
 
     font-family: "Montserrat", serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    margin-top: auto;
    
 }
 
 .info button i {
     padding-right: 0.5rem;
+    
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.container .current-price {
+    color: var(--dark-cyan);
+    font-family: "Fraunces", serif;
+    font-size: 1.9rem;
+    margin-right: 2rem;
+}
+
+.container .normal-price {
+    color: var(--very-dark-blue);
+    text-decoration:line-through;
+    opacity: 0.6;
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width: 700px){
+    .flex-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .img{
+        height: 10rem;
+        background: url(/images/image-product-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+}
 
