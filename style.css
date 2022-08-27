@@ -98,7 +98,14 @@ footer{
     font-family: "Montserrat", serif;
     font-size: 0.9rem;
     margin-top: auto;
-   
+    box-shadow: 0 0 1px black;
+    transition: all .1s;
+}
+
+.info button:active {
+    box-shadow: 0 0 0 black;
+    transition: all .1s;
+    background-color:hsl(158, 32%, 37%);;
 }
 
 .info button i {
@@ -135,7 +142,7 @@ footer{
         justify-content: center;
         align-items: center;
         height: 100%;
-        width: 60%;
+        width: 75%;
         
         border: transparent;
         border-radius: 10px;
