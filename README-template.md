@@ -66,10 +66,6 @@ I used FontAwesome.com for my shopping cart icon.
 ## Author
 
 - Website - github.com/ayosage
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ayosage)
+- Frontend Mentor - [@ayosage](https://www.frontendmentor.io/profile/ayosage)
 
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
+Font Awesome (fontawesome.com)
