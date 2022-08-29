@@ -43,7 +43,7 @@ footer{
 
 
 .img{
-    background: url(../images/image-product-desktop.jpg);
+    background: url(./images/image-product-desktop.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -153,7 +153,7 @@ footer{
     .img{
         height: 40%;
         width: 100%;
-        background: url(../images/image-product-mobile.jpg);
+        background: url(./images/image-product-mobile.jpg);
         background-position: center;
         background-size: cover;
     }
