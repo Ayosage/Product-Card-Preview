@@ -41,7 +41,7 @@ Mobile Screenshot:
 ### Links
 
 - Solution URL: (https://github.com/Ayosage/Product-Card-Preview)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://ayosage.github.io/Product-Card-Preview)
 
 ### Built with
 
@@ -55,9 +55,7 @@ I'm not sure. This is my first submission, I guess I learned how to use Github P
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+This is my first publish and the first step into preparing a portfolio. My next step is to create a javascript intensive design. 
 
 ### Useful resources
 
