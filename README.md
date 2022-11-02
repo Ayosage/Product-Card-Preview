@@ -1,2 +1,2 @@
 # Product-Card-Preview
-![alt text](https://github.com/ayobdon/Product-Card-Preview/images/desktop-screenshot.png)
+![Desktop Screenshot](https://github.com/Ayosage/Product-Card-Preview/blob/main/images/desktop-screenshot.png)
